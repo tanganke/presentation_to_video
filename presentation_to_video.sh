@@ -84,7 +84,7 @@ while (( "$#" )); do
         ;;
     *)
         echo "Error: Invalid argument"
-        echo "Usage: $0 [-b value] [-n value] [--image_dir dir] [--audio_dir dir] [--temp_dir dir] [--image_prefix prefix] [--image_postfix postfix] [--image_format format] [--audio_prefix prefix] [--audio_postfix postfix] [--audio_format format] [--scale scale] [--skip] [-o output_file]"
+        echo "Usage: $0 [-b begin] [-n end] [--image_dir image_dir] [--audio_dir audio_dir] [--temp_dir temp_dir] [--image_prefix image_prefix] [--image_postfix image_postfix] [--image_format image_format] [--audio_prefix audio_prefix] [--audio_postfix audio_postfix] [--audio_format audio_format] [--scale scale] [-o output_file] [--skip]"
         exit 1
     esac
 done
