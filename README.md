@@ -1,5 +1,7 @@
 # Presentation to Video
 
+[[中文文档](README-zh.md)]
+
 convert presentation to video.
 
 ## Usage
